@@ -54,35 +54,33 @@ function Contact() {
               <div className="form-group">
                 <input
                   type="submit"
-                  className="btn btn-primary"
+                  className="btn btn-primary "
                   value="Send Message"
                 />
               </div>
             </div>
             <div className="col-md-4">
-              <div className="contact-text-wrapper">
-                <p>
-                  <i className="contact-icon">
-                    <GoLocation />
-                  </i>
-                  &nbsp; Harrisburg, Pennsylvania
-                </p>
-                <p>
-                  <i className="contact-icon">
-                    <FiPhone />
-                  </i>
-                  &nbsp; +1-717-829-6497{" "}
-                </p>
-                <p>
-                  <i className="contact-icon">
-                    <HiOutlineMail />
-                  </i>
-                  &nbsp; rochellesakura@gmail.com
-                </p>
-              </div>
+              <p>
+                <i className="contact-icon">
+                  <GoLocation />
+                </i>
+                &nbsp; Harrisburg, Pennsylvania
+              </p>
+              <p>
+                <i className="contact-icon">
+                  <FiPhone />
+                </i>
+                &nbsp; +1-717-829-6497{" "}
+              </p>
+              <p>
+                <i className="contact-icon">
+                  <HiOutlineMail />
+                </i>
+                &nbsp; rochellesakura@gmail.com
+              </p>
             </div>
-            <div className="col-md-2 "></div>
           </div>
+          <div className="col-md-2 "></div>
         </form>
       </div>
     </>

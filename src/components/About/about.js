@@ -14,7 +14,7 @@ function About() {
           <div className="row">
             <div className="col-xl-2"></div>
             <div className="col-xl-8">
-              <div className="about-text-wrapper">
+              <div className="about-text-wrapper ">
                 <h1 className="about-title wow animate__animated animate__fadeInDown">
                   About Me
                 </h1>
@@ -29,19 +29,20 @@ function About() {
                   passion is to use technology based solutions, to help solve
                   real world challenges.
                 </p>
-
-                <a
-                  className="ghost_btn "
-                  target="_blank"
-                  rel="noreferrer"
-                  href={Resume}
-                >
-                  <AiOutlineDownload /> {"  "}
-                  Resume
-                </a>
               </div>
             </div>
-            <div className="col-xl-2"></div>
+            <div className="col-xl-2 text-center mt-3">
+              {" "}
+              <a
+                className="ghost_btn"
+                target="_blank"
+                rel="noreferrer"
+                href={Resume}
+              >
+                <AiOutlineDownload /> {"  "}
+                Resume
+              </a>
+            </div>
           </div>
         </div>
         <br />
