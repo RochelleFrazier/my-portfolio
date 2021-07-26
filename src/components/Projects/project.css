@@ -1,0 +1,55 @@
+.project-section {
+  padding: 160px 0;
+  color: #fff;
+}
+
+.my-projects {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #ff6363;
+  text-underline-position: under;
+  margin-bottom: 80px;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.project-img {
+  width: 100%;
+  height: auto;
+}
+
+.project-name {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #e2703a;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+.project-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #b4a5a5;
+}
+
+.project-link {
+  display: inline-block;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.project-link:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: #4a73ad;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-img {
+    display: inline;
+  }
+}

@@ -1,0 +1,54 @@
+.contact-section {
+  padding: 160px 0;
+}
+.contact-title {
+  margin-bottom: 20px;
+  text-decoration: 3px underline;
+  text-underline-position: under;
+  text-decoration-color: #ff6363;
+  color: #fff;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.contact-text-wrapper {
+  margin-top: 75px;
+  margin-left: 250px;
+  color: #fff;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #e2703a;
+}
+
+.btn-primary {
+  background-color: #000;
+  border-color: #e2703a;
+  margin-left: 200px;
+  border-radius: 0%;
+  padding: 20px 50px 20px 50px;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: #e2703a;
+  color: #fff;
+}
+
+input[type="text"] {
+  border: 2px solid #e2703a;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  padding: 2px 2px 5px 20px;
+}
+.form-control {
+  border: 2px solid #e2703a;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px 2px 5px 20px;
+}
