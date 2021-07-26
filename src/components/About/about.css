@@ -33,28 +33,27 @@
   color: #b4a5a5;
 }
 
+.button-wrapper {
+  text-align: center;
+}
+
 .ghost_btn {
   text-decoration: none;
   font-size: 150%;
   font-weight: 600;
   color: #fff;
   border: 2px solid #e2703a;
-  padding: 15px 40px;
+  padding: 20px 20px;
   display: inline-block;
   overflow: hidden;
   border-radius: 2px;
   transition: all 0.6s ease 0s;
   cursor: pointer;
   background-color: #000;
+  margin: 0;
 }
 a.ghost_btn:hover {
   background: transparent;
   color: #e2703a;
   text-decoration: none;
-}
-
-@media only screen and (max-width: 930px) {
-  .ghost_btn {
-    margin-left: 215px;
-  }
 }

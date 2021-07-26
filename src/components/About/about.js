@@ -12,8 +12,8 @@ function About() {
       <div className="about-section" id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xl-2"></div>
-            <div className="col-xl-8">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <div className="about-text-wrapper ">
                 <h1 className="about-title wow animate__animated animate__fadeInDown">
                   About Me
@@ -31,21 +31,27 @@ function About() {
                 </p>
               </div>
             </div>
-            <div className="col-xl-2 text-center mt-3">
-              {" "}
-              <a
-                className="ghost_btn"
-                target="_blank"
-                rel="noreferrer"
-                href={Resume}
-              >
-                <AiOutlineDownload /> {"  "}
-                Resume
-              </a>
+            <div className="col-md-2"></div>
+          </div>
+          <div className="row">
+            <div className="col-md-2"></div>
+            <div className="col-md-8 mt-3 ">
+              <div className="button-wrapper">
+                {" "}
+                <a
+                  className="ghost_btn "
+                  target="_blank"
+                  rel="noreferrer"
+                  href={Resume}
+                >
+                  <AiOutlineDownload /> {"  "}
+                  Resume
+                </a>
+              </div>
             </div>
+            <div className="col-md-2"></div>
           </div>
         </div>
-        <br />
       </div>
     </>
   );
