@@ -5,6 +5,7 @@ import { FiGithub } from "react-icons/fi";
 import Google from "../../Google_Clone.png";
 import Todo from "../../React_Todo.png";
 import SignForm from "../../Sign_Form.png";
+import Calculator from "../../React_Calculator_App.png";
 
 function Projects() {
   //   new WOW().init();
@@ -94,6 +95,35 @@ function Projects() {
                 {"     "}
                 View Code
               </a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div className="row">
+            <div className="col-md-6">
+              <h2 className="project-name">React Calculator Application</h2>
+              <p className="project-description">
+                This is a simple calculator application. I developed this
+                application using React and CSS-Grid.
+              </p>
+
+              <a
+                href="https://github.com/RochelleFrazier/React-Calculator.git"
+                style={{ float: "right" }}
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i>
+                  <FiGithub />
+                </i>
+                {"     "}
+                View Code
+              </a>
+            </div>
+            <div className="col-md-6">
+              <img src={Calculator} alt="" className="project-img" />
             </div>
           </div>
         </div>
